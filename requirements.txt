@@ -1,0 +1,4 @@
+paho-mqtt
+PyQt5
+pandas
+icecream
