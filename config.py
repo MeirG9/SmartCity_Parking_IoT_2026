@@ -1,7 +1,6 @@
 # config.py
 # ---------------------------------------------------------
 # Global Configuration for Smart Parking IoT System
-# Standard: 2026 IoT Architecture
 # ---------------------------------------------------------
 
 # MQTT Broker Settings

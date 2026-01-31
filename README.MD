@@ -1,9 +1,9 @@
-# 🅿️ Smart City: Autonomous Parking System (IoT Final Project)
+# Smart City: Autonomous Parking System (IoT Final Project)
 
 > **Course:** IoT Systems Development | **Year:** 2026
 > **Student:** Meir Garada
 
-## 📖 Project Overview
+##  Project Overview
 This project simulates a **Smart Parking Management System** for a Smart City environment.
 It is designed to solve the problem of parking congestion by automating access control, monitoring occupancy in real-time, and providing live data visualization to operators.
 
@@ -11,16 +11,16 @@ The system is built using a fully decoupled **Microservices Architecture**, comm
 
 ---
 
-## 🚀 Key Features & Technical Highlights
+##  Key Features & Technical Highlights
 
-* **📡 Modern MQTT Architecture:** Utilizes `paho-mqtt` **Client V2** (Callback API Version 2) for strict compliance and zero deprecation warnings.
-* **🧠 Intelligent Logic Controller:** Autonomous decision-making engine that prevents overcrowding and manages gate access based on real-time sensor data.
-* **🖥️ Thread-Safe GUI:** A responsive Dashboard built with **PyQt5**, utilizing `Signals` and `Slots` to separate network logic from UI rendering.
-* **💾 Robust Data Persistence:** **SQLite** database implementing **WAL (Write-Ahead Logging) Mode** to ensure high concurrency and stability (prevents "database locked" errors).
+* **Modern MQTT Architecture:** Utilizes `paho-mqtt` **Client V2** (Callback API Version 2) for strict compliance and zero deprecation warnings.
+* **Intelligent Logic Controller:** Autonomous decision-making engine that prevents overcrowding and manages gate access based on real-time sensor data.
+* **Thread-Safe GUI:** A responsive Dashboard built with **PyQt5**, utilizing `Signals` and `Slots` to separate network logic from UI rendering.
+* **Robust Data Persistence:** **SQLite** database implementing **WAL (Write-Ahead Logging) Mode** to ensure high concurrency and stability (prevents "database locked" errors).
 
 ---
 
-## 🛠️ System Architecture
+##  System Architecture
 
 The system consists of 4 main independent modules:
 
@@ -37,7 +37,7 @@ The system consists of 4 main independent modules:
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 * Python 3.9 or higher
 * Internet connection (for HiveMQ public broker)
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run the System
+##  How to Run the System
 
 Since this is a distributed system, you need to run the components in specific order.
 Open **3 separate Terminal** windows:
@@ -93,7 +93,7 @@ python parking_emulators.py
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 📦 SmartCity_Parking_IoT
@@ -110,7 +110,7 @@ python parking_emulators.py
 
 ---
 
-## 📸 Usage Scenario (Demo)
+## Usage Scenario (Demo)
 
 1. **Entry Request:** User clicks "PRESS FOR TICKET" on the Emulator.
 2. **Processing:** `logic_controller` checks availability.
@@ -124,6 +124,6 @@ python parking_emulators.py
 ![alt text](<Screenshot 2026-01-28 095635.png>)
 ---
 
-## 📝 License
+## License
 
 This project was developed for educational purposes at HIT (Holon Institute of Technology).
